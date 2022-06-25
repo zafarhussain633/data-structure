@@ -10,8 +10,6 @@ console.log(reverseString("hussain"))
 
 
 
-
-
 //solution 2
 function reverse2(string){
     let arr = string.split("").reverse().join(",");
@@ -26,7 +24,7 @@ console.log(reverse2("hussain"));
 //sloution 3
 function reverse3(string){
     let str =""
-    for(let i of string){
+    for(let i of string ){
         str = i+str
     }
     return str
