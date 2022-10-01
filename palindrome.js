@@ -34,7 +34,7 @@ function palindrome(string){
 console.log(palindrome("abba"))
 
 
-//check palindrome of number 
+//check palnrome of number 
 const isNumPalindrome=(n)=>{
 
     let number = n
